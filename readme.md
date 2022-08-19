@@ -1,0 +1,11 @@
+# hls测试仓库
+
+### ffmpeg切片command
+ffmpeg -re -i ~/Downloads/GMT20220815-030247_Recording_640x360.mp4 -codec copy -map 0 -f segment -segment_list playlist.m3u8 -segment_list_flags +live -segment_time 10 out%03d.mkv
+
+
+
+https://raw.githubusercontent.com/gglo/hls_test/main/playlist.m3u8
+
+
+https://github.com/gglo/hls_test/blob/main/out000.mkv?raw=true

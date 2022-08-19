@@ -4,7 +4,7 @@
 #EXT-X-ALLOW-CACHE:YES
 #EXT-X-TARGETDURATION:12
 #EXTINF:11.640000,
-https://github.com/gglo/hls_test/blob/main/out000.mkv?raw=true
+out000.mkv
 #EXTINF:0.760000,
-https://github.com/gglo/hls_test/blob/main/out001.mkv?raw=true
+out001.mkv
 #EXT-X-ENDLIST
